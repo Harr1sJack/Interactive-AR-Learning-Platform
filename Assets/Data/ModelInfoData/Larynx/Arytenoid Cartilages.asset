@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061da2775026ffc44a32796d158034ba, type: 3}
+  m_Name: Arytenoid Cartilages
+  m_EditorClassIdentifier: Assembly-CSharp::ModelInfoData
+  title: Arytenoid Cartilages
+  description: The arytenoid cartilages are a pair of small, pyramid-shaped cartilages
+    located at the back of the larynx. They play a crucial role in voice production
+    by controlling the movement and tension of the vocal cords.

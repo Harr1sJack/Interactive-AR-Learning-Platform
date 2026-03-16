@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 061da2775026ffc44a32796d158034ba, type: 3}
+  m_Name: Brain Stem
+  m_EditorClassIdentifier: Assembly-CSharp::ModelInfoData
+  title: Brain Stem
+  description: The brain stem connects the brain to the spinal cord. It regulates
+    vital automatic functions such as breathing, heart rate, blood pressure, and
+    digestion. It also controls reflexes like coughing and swallowing.

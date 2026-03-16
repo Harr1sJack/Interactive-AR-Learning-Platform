@@ -1,0 +1,69 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 848409ee8ba454f42a5ddff137688a27, type: 3}
+  m_Name: ImageRefLibrary
+  m_EditorClassIdentifier: Unity.XR.ARSubsystems::UnityEngine.XR.ARSubsystems.XRReferenceImageLibrary
+  m_GuidLow: 4961076162281506848
+  m_GuidHigh: 6874517283507347879
+  m_DataStore:
+    m_Storage: []
+  m_Images:
+  - m_SerializedGuid:
+      m_GuidLow: 5163998261587006988
+      m_GuidHigh: 4944058860931212722
+    m_SerializedTextureGuid:
+      m_GuidLow: 14345270766050616818
+      m_GuidHigh: 18157707638538794251
+    m_Size: {x: 0.297, y: 0.1650052}
+    m_SpecifySize: 1
+    m_Name: solar_system
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5469826683197325021
+      m_GuidHigh: 4585870772636446381
+    m_SerializedTextureGuid:
+      m_GuidLow: 5675699485491348276
+      m_GuidHigh: 6785723325357988939
+    m_Size: {x: 0.297, y: 0.198}
+    m_SpecifySize: 1
+    m_Name: water_cycle
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5708976018185277047
+      m_GuidHigh: 9829934654718302637
+    m_SerializedTextureGuid:
+      m_GuidLow: 4324689361417851791
+      m_GuidHigh: 10432952799978480378
+    m_Size: {x: 0.297, y: 0.22275}
+    m_SpecifySize: 1
+    m_Name: brain
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5426889546599470896
+      m_GuidHigh: 9187455674137317303
+    m_SerializedTextureGuid:
+      m_GuidLow: 3563753598018312371
+      m_GuidHigh: 3624022929284879930
+    m_Size: {x: 0.297, y: 0.36322296}
+    m_SpecifySize: 1
+    m_Name: lungs
+    m_Texture: {fileID: 0}
+  - m_SerializedGuid:
+      m_GuidLow: 5295781105078316966
+      m_GuidHigh: 13506757265570188724
+    m_SerializedTextureGuid:
+      m_GuidLow: 2883648212560132400
+      m_GuidHigh: 9248001888542842313
+    m_Size: {x: 0.297, y: 0.297}
+    m_SpecifySize: 1
+    m_Name: larynx
+    m_Texture: {fileID: 0}

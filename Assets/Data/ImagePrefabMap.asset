@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0c85f0e1541f5445af3185b3039a61e, type: 3}
+  m_Name: ImagePrefabMap
+  m_EditorClassIdentifier: Assembly-CSharp::ImagePrefabMap
+  entries:
+  - imageName: solar_system
+    prefab: {fileID: 8204895817383428419, guid: 4970222ce6fdb5b4e9013510fcafb694, type: 3}
+  - imageName: water_cycle
+    prefab: {fileID: 3020422505687161638, guid: cb858d3d15fa76847a2ebff60ed9d40a, type: 3}
+  - imageName: brain
+    prefab: {fileID: 5533449833923073640, guid: 151d953fdd8e8a046839ff76848bcb8b, type: 3}
+  - imageName: lungs
+    prefab: {fileID: 1682571079596024800, guid: 0b2c4b92264ed1c4091d7ec244777eaf, type: 3}
+  - imageName: larynx
+    prefab: {fileID: 8144182330709092420, guid: 21535079d2f33074ba80e4f672fad1bf, type: 3}
