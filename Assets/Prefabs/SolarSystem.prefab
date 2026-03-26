@@ -246,6 +246,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 6d923b29faf8cdd47b7abfb79644b3b2, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &3261919429106385796
 GameObject:
   m_ObjectHideFlags: 0
@@ -556,6 +557,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 706c4b7f16c8b5447bfad0a2389d1c66, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &3853061541741895376
 GameObject:
   m_ObjectHideFlags: 0
@@ -803,6 +805,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 37bfbe3001b6f1543a5c29419a4b2df9, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &4018649420913441908
 GameObject:
   m_ObjectHideFlags: 0
@@ -1056,6 +1059,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 9dd3a528f4e6d2a4b8ea07df76a17107, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &4580679936212827465
 GameObject:
   m_ObjectHideFlags: 0
@@ -1334,6 +1338,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 0eeeefb2e0c6e2945b7f35fd8710bca2, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &5841427226581322374
 GameObject:
   m_ObjectHideFlags: 0
@@ -1702,6 +1707,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 113c02273159d3c46bce0d36e717cec9, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &6082520753487813413
 GameObject:
   m_ObjectHideFlags: 0
@@ -1980,6 +1986,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 354db0dd753711e48b79d4ed64093a27, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &7183493887144159304
 GameObject:
   m_ObjectHideFlags: 0
@@ -2054,7 +2061,6 @@ GameObject:
   m_Component:
   - component: {fileID: 9195371612341863650}
   - component: {fileID: 4474061194119009865}
-  - component: {fileID: 7900467242545815699}
   m_Layer: 0
   m_Name: SolarSystem
   m_TagString: Untagged
@@ -2118,18 +2124,6 @@ MonoBehaviour:
     speed: 2
   - center: {fileID: 4732658933907027945}
     speed: 1
---- !u!114 &7900467242545815699
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8204895817383428419}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 872717b6e1287404a96ce330ad6ddfe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ModelRootController
 --- !u!1 &8243113738426832260
 GameObject:
   m_ObjectHideFlags: 0
@@ -2408,6 +2402,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 7788e98d8c0220b4f999039c0bf4b095, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &8391552849689370067
 GameObject:
   m_ObjectHideFlags: 0
@@ -2654,3 +2649,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: cf249000ba70b9a429be1ead26931079, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}

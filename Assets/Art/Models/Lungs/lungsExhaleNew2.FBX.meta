@@ -3,7 +3,22 @@ guid: 5f6512f59585e4744afcb38f5b1dda97
 ModelImporter:
   serializedVersion: 24200
   internalIDToNameTable: []
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: brtr
+    second: {fileID: 2100000, guid: 14be811eb7bd2c24c9850dcb8619d037, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: lung_LOBE
+    second: {fileID: 2100000, guid: dfd3d171df6f7be4a9e582e8b9cedc9d, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: xx-001
+    second: {fileID: 2100000, guid: 740027de5f63981428fdc63dfd11840b, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

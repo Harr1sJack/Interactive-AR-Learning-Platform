@@ -66,7 +66,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8465022277765718042, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: 740027de5f63981428fdc63dfd11840b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -156,7 +156,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8465022277765718042, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: 740027de5f63981428fdc63dfd11840b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -246,7 +246,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8465022277765718042, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: 740027de5f63981428fdc63dfd11840b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -281,7 +281,6 @@ GameObject:
   - component: {fileID: 3685197627614604941}
   - component: {fileID: 8870967278792349853}
   - component: {fileID: 2677257106354627326}
-  - component: {fileID: 830881321078028059}
   m_Layer: 0
   m_Name: Lungs
   m_TagString: Untagged
@@ -297,7 +296,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1682571079596024800}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_ConstrainProportionsScale: 1
@@ -308,7 +307,7 @@ Transform:
   - {fileID: 55366625034316132}
   - {fileID: 4549643679871559032}
   m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &8870967278792349853
 Animator:
   serializedVersion: 7
@@ -345,18 +344,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::LungsBreathingSimulation
   animator: {fileID: 8870967278792349853}
   baseBreathingSpeed: 1
---- !u!114 &830881321078028059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1682571079596024800}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 872717b6e1287404a96ce330ad6ddfe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ModelRootController
 --- !u!1 &2743366831419588151
 GameObject:
   m_ObjectHideFlags: 0
@@ -423,7 +410,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8465022277765718042, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: 740027de5f63981428fdc63dfd11840b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -513,7 +500,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8465022277765718042, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: 740027de5f63981428fdc63dfd11840b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -698,7 +685,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3685197627614604941}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &1201113131576198756
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -732,7 +719,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1236505727928381911, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: dfd3d171df6f7be4a9e582e8b9cedc9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -791,6 +778,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 260e17f0148b2304eb2ce12ce9eccf93, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &5152068616558099680
 GameObject:
   m_ObjectHideFlags: 0
@@ -862,7 +850,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 3685197627614604941}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!33 &1077571242319698434
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -896,7 +884,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -1236505727928381911, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: dfd3d171df6f7be4a9e582e8b9cedc9d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -955,6 +943,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 30a193c57d2f05a4f9a78f057e0d2eb8, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}
 --- !u!1 &7570795252756626700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1021,7 +1010,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 8465022277765718042, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: 740027de5f63981428fdc63dfd11840b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1113,7 +1102,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -8571032558924694301, guid: 5f6512f59585e4744afcb38f5b1dda97, type: 3}
+  - {fileID: 2100000, guid: 14be811eb7bd2c24c9850dcb8619d037, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1172,3 +1161,4 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ModelSelectable
   info: {fileID: 11400000, guid: 8d792217012a6434e91176bfd8cc444e, type: 2}
+  highlightColor: {r: 1, g: 0.9333334, b: 0.5490196, a: 1}

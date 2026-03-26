@@ -17,7 +17,6 @@ public class InfoPanelController : MonoBehaviour
     private void Awake()
     {
         panelRoot.SetActive(true);
-        canvasGroup.alpha = 0f;
         canvasGroup.interactable = false;
         canvasGroup.blocksRaycasts = false;
 
@@ -26,6 +25,13 @@ public class InfoPanelController : MonoBehaviour
 
     public void Show(ModelInfoData info)
     {
+        Debug.Log($"[InfoPanel] Show called. info={info}, isOpen={isOpen}");
+        if (info == null)
+        {
+            Debug.LogWarning("[InfoPanel] info is NULL — returning early");
+            return;
+        }
+
         if (info == null)
             return;
 
@@ -38,7 +44,6 @@ public class InfoPanelController : MonoBehaviour
 
         canvasGroup.blocksRaycasts = true;
         canvasGroup.interactable = true;
-
         AppStateManager.Instance.SetState(AppUIState.InfoOpen);
 
         animator.SetTrigger("Open");

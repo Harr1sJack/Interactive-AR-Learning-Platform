@@ -34,6 +34,20 @@ public class AppStateManager : MonoBehaviour
         Debug.Log("UI State: " + state);
 
         scanIndicator.SetActive(state == AppUIState.Scanning);
-        controlButtons.SetActive(state == AppUIState.ModelActive);
+
+        // FIX: Keep control buttons visible in BOTH ModelActive AND InfoOpen.
+        // Previously, InfoOpen caused controlButtons to hide (false), which
+        // made the UI disappear and froze all interaction.
+        controlButtons.SetActive(state == AppUIState.ModelActive || state == AppUIState.InfoOpen);
     }
+
+    /// <summary>
+    /// Returns true when the model is placed and interactive —
+    /// covers both normal interaction and when the info panel is open.
+    /// Use this in place of (CurrentState == ModelActive) checks in
+    /// ModelInteractionController and SelectionController.
+    /// </summary>
+    public bool IsModelInteractive =>
+        CurrentState == AppUIState.ModelActive ||
+        CurrentState == AppUIState.InfoOpen;
 }

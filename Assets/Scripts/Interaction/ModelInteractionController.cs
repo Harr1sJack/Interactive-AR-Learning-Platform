@@ -24,8 +24,11 @@ public class ModelInteractionController : MonoBehaviour
 
     private void Update()
     {
+        // FIX: Use IsModelInteractive so rotation/scale still works when
+        // the info panel is open (InfoOpen state). Previously the strict
+        // ModelActive check froze the model the moment a part was tapped.
         if (AppStateManager.Instance == null ||
-            AppStateManager.Instance.CurrentState != AppUIState.ModelActive)
+            !AppStateManager.Instance.IsModelInteractive)
             return;
 
         if (Touchscreen.current == null || !baseScaleInitialized)
