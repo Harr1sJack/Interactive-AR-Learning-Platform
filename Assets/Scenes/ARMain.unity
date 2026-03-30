@@ -1827,6 +1827,7 @@ MonoBehaviour:
   animator: {fileID: 429452788}
   canvasGroup: {fileID: 429452787}
   infoPanel: {fileID: 998854229}
+  chatbotController: {fileID: 0}
 --- !u!1 &478889631
 GameObject:
   m_ObjectHideFlags: 0
@@ -2412,37 +2413,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 520634867}
   m_CullTransparentMesh: 1
---- !u!1 &543296006
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 543296007}
-  m_Layer: 0
-  m_Name: SpawnedModelRoot
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &543296007
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 543296006}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &605017029
 GameObject:
   m_ObjectHideFlags: 0
@@ -4923,7 +4893,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 204329992}
   m_HandleRect: {fileID: 204329991}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -6352,7 +6322,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ARImageSpawner
   imageManager: {fileID: 879286617}
   prefabMap: {fileID: 11400000, guid: 5a6303c6046da6d4bbb5280763716f09, type: 2}
-  spawnRoot: {fileID: 543296007}
   simulationUI: {fileID: 1034422212}
   cameraBackground: {fileID: 1170708903}
 --- !u!114 &1478082181
@@ -8598,6 +8567,5 @@ SceneRoots:
   - {fileID: 1478082178}
   - {fileID: 1720492363}
   - {fileID: 879286619}
-  - {fileID: 543296007}
   - {fileID: 507666508}
   - {fileID: 1440444667}
